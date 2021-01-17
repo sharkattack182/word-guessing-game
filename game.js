@@ -25,7 +25,7 @@ class Game {
                 console.log(`Out of guesses the word was ${this.currentWord.getSolution()}`)
                 this.askToPlayAgain();
             } else if(this.currentWord.correctGuess()) {
-                console.log("Correct");
+                console.log("You solved the game!");
                 this.guessLeft = 5;
                 this.nextWord();
             } else {
