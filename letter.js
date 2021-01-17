@@ -1,4 +1,3 @@
-const { truncate } = require("fs");
 
 class Letter {
     constructor(character) {
@@ -6,12 +5,16 @@ class Letter {
         this.character = character;
     }
 
-    displayChar() {
+    toString() {
         if(this.visible === true) {
             return this.character
         } else {
             return "_"
         }
+    }
+    
+    getSolution() {
+        return this.character;
     }
 
     checkGuess(guess) {
