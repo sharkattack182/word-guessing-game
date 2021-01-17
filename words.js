@@ -1,5 +1,17 @@
 module.exports = [
-    "hello",
-    "red",
-    "number"
+    "javascript",
+    "node",
+    "html",
+    "css",
+    "jquery",
+    "object",
+    "constructor",
+    "class",
+    "test",
+    "terminal",
+    "github",
+    "commit",
+    "bootcamp",
+    "ajax",
+    "axios"
 ]
