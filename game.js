@@ -15,7 +15,8 @@ class Game {
     nextWord() {
         const randomWord = words[Math.floor(Math.random() * words.length)];
         this.currentWord = new Word(randomWord);
-        console.log("\n" + this.currentWord)
+        console.log("\n" + this.currentWord);
+        this.makeGuess();
     }
 
     makeGuess() {
