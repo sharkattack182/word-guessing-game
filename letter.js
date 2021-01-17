@@ -1,7 +1,6 @@
 
 class Letter {
     constructor(character) {
-        this.visible = !/[a-z1-9]/i.test(character);
         this.character = character;
     }
 
